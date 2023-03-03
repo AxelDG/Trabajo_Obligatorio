@@ -7,8 +7,8 @@
      img3: "http://via.placeholder.com/333x333",
    };
    const [boton, setBoton] = useState(ANIMAL_IAMGES.img1); 
-   const handleClickButton = (imagem) => {
-    setBoton (ANIMAL_IAMGES[imagem])
+   const handleClickButton = (imagen) => {
+    setBoton (ANIMAL_IAMGES[imagen])
     
    };
    return (
