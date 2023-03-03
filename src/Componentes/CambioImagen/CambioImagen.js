@@ -6,11 +6,12 @@
      img2: "http://via.placeholder.com/222x222",
      img3: "http://via.placeholder.com/333x333",
    };
+  
    const [boton, setBoton] = useState(ANIMAL_IAMGES.img1); 
    const handleClickButton = (imagen) => {
     setBoton (ANIMAL_IAMGES[imagen])
-    
    };
+  
    return (
     <div>
       <h2>Cambio de Imagen</h2>
@@ -22,7 +23,6 @@
     <img src={boton} alt='imagen'/>
     </div>
     </div>
-    
    );
 }
 
